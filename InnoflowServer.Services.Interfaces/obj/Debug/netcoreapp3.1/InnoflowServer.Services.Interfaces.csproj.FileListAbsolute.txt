@@ -1,0 +1,12 @@
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.deps.json
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.csprojAssemblyReference.cache
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.AssemblyInfoInputs.cache
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.AssemblyInfo.cs
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.csproj.CoreCompileInputs.cache
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.csproj.CopyComplete
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.pdb

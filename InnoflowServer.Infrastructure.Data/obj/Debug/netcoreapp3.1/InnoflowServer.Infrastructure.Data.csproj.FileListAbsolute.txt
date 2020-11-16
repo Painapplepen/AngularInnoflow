@@ -1,0 +1,14 @@
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.deps.json
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.csprojAssemblyReference.cache
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.AssemblyInfoInputs.cache
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.AssemblyInfo.cs
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.csproj.CoreCompileInputs.cache
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.csproj.CopyComplete
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.pdb

@@ -1,0 +1,16 @@
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\bin\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.deps.json
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\bin\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\bin\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\bin\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\bin\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csprojAssemblyReference.cache
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.AssemblyInfoInputs.cache
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.AssemblyInfo.cs
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csproj.CoreCompileInputs.cache
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csproj.CopyComplete
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.dll
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.pdb
