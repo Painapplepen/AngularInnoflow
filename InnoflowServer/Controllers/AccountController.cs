@@ -6,6 +6,7 @@ using AutoMapper;
 using InnoflowServer.Domain.Core.DTO;
 using InnoflowServer.Domain.Core.Models;
 using InnoflowServer.Services.Interfaces.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -28,13 +29,37 @@ namespace InnoflowServer.Controllers
         [HttpPost]
         public async Task<IActionResult> Register([FromBody] RegisterUserModel model)
         {
-            if (!await _service.Register(_mapper.Map<UserDTO>(model)))
+            var code = await _service.Register(_mapper.Map<UserDTO>(model));
+            if (code == null)
+            {
+                return BadRequest();
+            }
+            string callbackUrl = Url.Action(
+                "ConfirmEmail",
+                "Account",
+                new { userEmail = model.Email, code = code },
+                protocol: HttpContext.Request.Scheme);
+            string message = $"Подтвердите регистрацию, перейдя по ссылке: <a href = '{callbackUrl}'>Link</a>";
+            if (!await _service.SendEmail(_mapper.Map<UserDTO>(model), message))
             {
                 return BadRequest();
             }
             return Ok();
         }
 
+        [Route("/ConfirmEmail")]
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> ConfirmEmail(string userEmail, string code)
+        {
+
+            if (!await _service.ConfirmEmail(userEmail, code))
+            {
+                return BadRequest();
+            }
+
+            return Ok();
+        }
         [Route("/login")]
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginUserModel model)

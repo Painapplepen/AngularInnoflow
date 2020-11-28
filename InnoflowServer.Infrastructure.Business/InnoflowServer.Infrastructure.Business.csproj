@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.10.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\InnoflowServer.Domain.Interfaces\InnoflowServer.Domain.Interfaces.csproj" />
     <ProjectReference Include="..\InnoflowServer.Services.Interfaces\InnoflowServer.Services.Interfaces.csproj" />
   </ItemGroup>

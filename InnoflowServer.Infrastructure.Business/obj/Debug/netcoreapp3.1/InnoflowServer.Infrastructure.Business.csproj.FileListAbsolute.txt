@@ -10,7 +10,7 @@ D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\b
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csprojAssemblyReference.cache
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.AssemblyInfoInputs.cache
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.AssemblyInfo.cs
-D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csproj.CoreCompileInputs.cache
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csproj.CopyComplete
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.dll
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.pdb
+D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Business\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csproj.CoreCompileInputs.cache

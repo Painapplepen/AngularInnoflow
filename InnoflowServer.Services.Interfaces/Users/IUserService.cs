@@ -5,9 +5,13 @@ namespace InnoflowServer.Services.Interfaces.Users
 {
     public interface IUserService
     {
-        Task<bool> Register(UserDTO model);
+        Task<string> Register(UserDTO model);
         
         Task<bool> Login(UserDTO model);
+
+        Task<bool> SendEmail(UserDTO model, string message);
+
+        Task<bool> ConfirmEmail(string userEmail, string code);
         
         Task Logout();
     }

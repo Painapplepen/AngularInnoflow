@@ -41,7 +41,7 @@ namespace InnoflowServer
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
                 options.Password.RequireDigit = false;
-            }).AddEntityFrameworkStores<ApplicationDbContext>();
+            }).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders(); ;
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();
 
