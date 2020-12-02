@@ -10,6 +10,10 @@ using System.Threading.Tasks;
 using MimeKit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
 
 namespace InnoflowServer.Infrastructure.Business.Users
 {
@@ -54,7 +58,7 @@ namespace InnoflowServer.Infrastructure.Business.Users
 
         }
 
-        public async Task<bool> Login(UserDTO model)
+        public async Task<string> Login(UserDTO model)
         {
             var user = await db.Users.FindByEmailAsync(model.Email);
             
@@ -64,20 +68,38 @@ namespace InnoflowServer.Infrastructure.Business.Users
                 
                 if (!checkPassword.Succeeded)
                 {
-                    return false;
+                    return "";
                 }
-
+                
                 if (!await db.Users.IsEmailConfirmedAsync(user))
                 {
-                    return false;
+                    return "";
                 }
 
                 await db.SignIn.SignInAsync(user, true);
+                var role = await db.Users.GetRolesAsync(user);
+                
+                var now = DateTime.UtcNow;
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimsIdentity.DefaultNameClaimType, user.Email),
+                    new Claim(ClaimsIdentity.DefaultRoleClaimType, role[0])
+                };
+                ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "Token", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
+                // создаем JWT-токен
+                var jwt = new JwtSecurityToken(
+                        issuer: AuthOptions.ISSUER,
+                        audience: AuthOptions.AUDIENCE,
+                        notBefore: now,
+                        claims: claimsIdentity.Claims,
+                        expires: now.Add(TimeSpan.FromMinutes(AuthOptions.LIFETIME)),
+                        signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256));
+                var encodedJwt = new JwtSecurityTokenHandler().WriteToken(jwt);
 
-                return true;
+                return encodedJwt;
             }
             
-            return false;
+            return "";
         }
 
         public async Task<bool> SendEmail(UserDTO model, string message)

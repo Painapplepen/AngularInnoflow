@@ -10,3 +10,15 @@ D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Domain.Interfaces\obj\Deb
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csproj.CopyComplete
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.deps.json
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csprojAssemblyReference.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.AssemblyInfoInputs.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.AssemblyInfo.cs
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csproj.CoreCompileInputs.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csproj.CopyComplete
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb

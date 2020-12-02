@@ -7,7 +7,7 @@ namespace InnoflowServer.Services.Interfaces.Users
     {
         Task<string> Register(UserDTO model);
         
-        Task<bool> Login(UserDTO model);
+        Task<string> Login(UserDTO model);
 
         Task<bool> SendEmail(UserDTO model, string message);
 

@@ -12,3 +12,17 @@ D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\D
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.csproj.CopyComplete
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.dll
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.deps.json
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.csprojAssemblyReference.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.AssemblyInfoInputs.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.AssemblyInfo.cs
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.csproj.CoreCompileInputs.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.csproj.CopyComplete
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Infrastructure.Data\obj\Debug\netcoreapp3.1\InnoflowServer.Infrastructure.Data.pdb

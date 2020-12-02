@@ -7,3 +7,12 @@ D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Domain.Core\bin\Debug\net
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Domain.Core\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.csproj.CoreCompileInputs.cache
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Domain.Core\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Domain.Core\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Core\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.deps.json
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Core\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Core\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Core\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.csprojAssemblyReference.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Core\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.AssemblyInfoInputs.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Core\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.AssemblyInfo.cs
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Core\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.csproj.CoreCompileInputs.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Core\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Core\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb

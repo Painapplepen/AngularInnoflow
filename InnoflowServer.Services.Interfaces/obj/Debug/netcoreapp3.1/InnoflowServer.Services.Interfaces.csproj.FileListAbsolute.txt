@@ -10,3 +10,15 @@ D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\D
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.csproj.CopyComplete
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.dll
 D:\AngularInnoflowServer\InnoflowServer\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.deps.json
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.csprojAssemblyReference.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.AssemblyInfoInputs.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.AssemblyInfo.cs
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.csproj.CoreCompileInputs.cache
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.csproj.CopyComplete
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.dll
+E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Services.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Services.Interfaces.pdb

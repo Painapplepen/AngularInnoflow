@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoMapper;
 using InnoflowServer.Domain.Core.DTO;
 using InnoflowServer.Domain.Core.Models;
+using InnoflowServer.Infrastructure.Business;
 using InnoflowServer.Services.Interfaces.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 
 namespace InnoflowServer.Controllers
 {
@@ -64,9 +68,10 @@ namespace InnoflowServer.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginUserModel model)
         {
-            if (await _service.Login(_mapper.Map<UserDTO>(model)))
+            var tokenStr = await _service.Login(_mapper.Map<UserDTO>(model));
+            if (tokenStr.Length > 0)
             {
-                return Ok();
+                return Ok(new { token = tokenStr });
             }
             return BadRequest();
         }
