@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Infrastructure.Business\\InnoflowServer.Infrastructure.Business.csproj": {}
+    "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Infrastructure.Business\\InnoflowServer.Infrastructure.Business.csproj": {}
   },
   "projects": {
-    "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj": {
+    "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj",
         "projectName": "InnoflowServer.Domain.Core",
-        "projectPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\Паша\\.nuget\\packages\\",
-        "outputPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\molchic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Паша\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\molchic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -64,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj": {
+    "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj",
         "projectName": "InnoflowServer.Domain.Interfaces",
-        "projectPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\Паша\\.nuget\\packages\\",
-        "outputPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\molchic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Паша\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\molchic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,10 +88,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj": {
-                "projectPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj"
+              "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj"
               }
             }
           }
@@ -106,7 +103,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -122,21 +118,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Infrastructure.Business\\InnoflowServer.Infrastructure.Business.csproj": {
+    "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Infrastructure.Business\\InnoflowServer.Infrastructure.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Infrastructure.Business\\InnoflowServer.Infrastructure.Business.csproj",
+        "projectUniqueName": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Infrastructure.Business\\InnoflowServer.Infrastructure.Business.csproj",
         "projectName": "InnoflowServer.Infrastructure.Business",
-        "projectPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Infrastructure.Business\\InnoflowServer.Infrastructure.Business.csproj",
-        "packagesPath": "C:\\Users\\Паша\\.nuget\\packages\\",
-        "outputPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Infrastructure.Business\\obj\\",
+        "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Infrastructure.Business\\InnoflowServer.Infrastructure.Business.csproj",
+        "packagesPath": "C:\\Users\\molchic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Infrastructure.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Паша\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\molchic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,13 +144,12 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj": {
-                "projectPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj"
+              "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj"
               },
-              "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj": {
-                "projectPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj"
+              "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj"
               }
             }
           }
@@ -167,7 +162,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MailKit": {
               "target": "Package",
@@ -201,21 +195,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj": {
+    "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj",
         "projectName": "InnoflowServer.Services.Interfaces",
-        "projectPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\Паша\\.nuget\\packages\\",
-        "outputPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Services.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Services.Interfaces\\InnoflowServer.Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\molchic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Services.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Паша\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\molchic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -227,10 +221,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj": {
-                "projectPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj"
+              "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj"
               }
             }
           }
@@ -243,7 +236,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -259,7 +251,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
 ﻿using InnoflowServer.Domain.Core.DTO;
+using InnoflowServer.Domain.Core.Models;
 using System.Threading.Tasks;
 
 namespace InnoflowServer.Services.Interfaces.Users
@@ -12,6 +13,10 @@ namespace InnoflowServer.Services.Interfaces.Users
         Task<bool> SendEmail(UserDTO model, string message);
 
         Task<bool> ConfirmEmail(string userEmail, string code);
+
+        Task UpdateProfile(UserDTO model);
+
+        Task<ProfileUserData> GetProfile(string userEmail);
         
         Task Logout();
     }

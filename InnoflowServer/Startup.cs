@@ -1,4 +1,4 @@
-using AutoMapper;
+п»їusing AutoMapper;
 using InnoflowServer.Domain.Core.Entities;
 using InnoflowServer.Domain.Interfaces;
 using InnoflowServer.Infrastructure.Business;
@@ -42,21 +42,21 @@ namespace InnoflowServer
                         options.RequireHttpsMetadata = false;
                         options.TokenValidationParameters = new TokenValidationParameters
                         {
-                            // укзывает, будет ли валидироваться издатель при валидации токена
+                            // ГіГЄГ§Г»ГўГ ГҐГІ, ГЎГіГ¤ГҐГІ Г«ГЁ ГўГ Г«ГЁГ¤ГЁГ°Г®ГўГ ГІГјГ±Гї ГЁГ§Г¤Г ГІГҐГ«Гј ГЇГ°ГЁ ГўГ Г«ГЁГ¤Г Г¶ГЁГЁ ГІГ®ГЄГҐГ­Г 
                             ValidateIssuer = true,
-                            // строка, представляющая издателя
+                            // Г±ГІГ°Г®ГЄГ , ГЇГ°ГҐГ¤Г±ГІГ ГўГ«ГїГѕГ№Г Гї ГЁГ§Г¤Г ГІГҐГ«Гї
                             ValidIssuer = AuthOptions.ISSUER,
 
-                            // будет ли валидироваться потребитель токена
+                            // ГЎГіГ¤ГҐГІ Г«ГЁ ГўГ Г«ГЁГ¤ГЁГ°Г®ГўГ ГІГјГ±Гї ГЇГ®ГІГ°ГҐГЎГЁГІГҐГ«Гј ГІГ®ГЄГҐГ­Г 
                             ValidateAudience = true,
-                            // установка потребителя токена
+                            // ГіГ±ГІГ Г­Г®ГўГЄГ  ГЇГ®ГІГ°ГҐГЎГЁГІГҐГ«Гї ГІГ®ГЄГҐГ­Г 
                             ValidAudience = AuthOptions.AUDIENCE,
-                            // будет ли валидироваться время существования
+                            // ГЎГіГ¤ГҐГІ Г«ГЁ ГўГ Г«ГЁГ¤ГЁГ°Г®ГўГ ГІГјГ±Гї ГўГ°ГҐГ¬Гї Г±ГіГ№ГҐГ±ГІГўГ®ГўГ Г­ГЁГї
                             ValidateLifetime = true,
 
-                            // установка ключа безопасности
+                            // ГіГ±ГІГ Г­Г®ГўГЄГ  ГЄГ«ГѕГ·Г  ГЎГҐГ§Г®ГЇГ Г±Г­Г®Г±ГІГЁ
                             IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(),
-                            // валидация ключа безопасности
+                            // ГўГ Г«ГЁГ¤Г Г¶ГЁГї ГЄГ«ГѕГ·Г  ГЎГҐГ§Г®ГЇГ Г±Г­Г®Г±ГІГЁ
                             ValidateIssuerSigningKey = true,
                         };
                     });

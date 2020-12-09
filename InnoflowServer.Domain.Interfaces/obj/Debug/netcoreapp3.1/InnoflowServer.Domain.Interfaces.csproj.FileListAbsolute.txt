@@ -22,3 +22,15 @@ E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Dom
 E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csproj.CopyComplete
 E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
 E:\Win folders\Documents\Visual Studio Projects\InnoflowUnite\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.deps.json
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Debug\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csprojAssemblyReference.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.AssemblyInfoInputs.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.AssemblyInfo.cs
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csproj.CopyComplete
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Debug\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb

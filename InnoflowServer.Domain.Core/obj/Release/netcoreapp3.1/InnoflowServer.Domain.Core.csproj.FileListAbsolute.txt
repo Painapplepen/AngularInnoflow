@@ -1,0 +1,9 @@
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Core\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Core.deps.json
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Core\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Core\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Core\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Core.csprojAssemblyReference.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Core\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Core\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Core.AssemblyInfo.cs
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Core\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Core\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Core\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Core.pdb

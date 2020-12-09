@@ -1729,19 +1729,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Паша\\.nuget\\packages\\": {}
+    "C:\\Users\\molchic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj",
+      "projectUniqueName": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj",
       "projectName": "InnoflowServer.Domain.Core",
-      "projectPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj",
-      "packagesPath": "C:\\Users\\Паша\\.nuget\\packages\\",
-      "outputPath": "E:\\Win folders\\Documents\\Visual Studio Projects\\InnoflowUnite\\InnoflowServer.Domain.Core\\obj\\",
+      "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj",
+      "packagesPath": "C:\\Users\\molchic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Паша\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\molchic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1753,7 +1753,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -1765,7 +1764,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",
@@ -1791,7 +1789,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

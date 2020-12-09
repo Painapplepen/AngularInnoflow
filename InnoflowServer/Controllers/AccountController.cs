@@ -1,18 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoMapper;
 using InnoflowServer.Domain.Core.DTO;
 using InnoflowServer.Domain.Core.Models;
-using InnoflowServer.Infrastructure.Business;
 using InnoflowServer.Services.Interfaces.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 
 namespace InnoflowServer.Controllers
 {
@@ -76,12 +72,37 @@ namespace InnoflowServer.Controllers
             return BadRequest();
         }
 
+        [Route("/ChangeProfile")]
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> ChangeProfile([FromBody] ChangeProfileUserModel model)
+        {
+            return Ok();
+        }
+
+        [Route("/GetProfileData")]
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> GetProfileData(string email)
+        {
+            var result = await _service.GetProfile(email);
+            return Ok(new { FirstName = result.FirstName, LastName = result.LastName, PhoneNumber = result.PhoneNumber, Email = result.Email, Role = result.Role });
+        }
+
         [Route("/logout")]
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
             await _service.Logout();
             return Ok();
+        }
+
+        [Route("/GetAssociatedCases")]
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> GetAssociatedCases(string email)
+        {
+            return Ok(new { message = "not implemented" });
         }
     }
 }

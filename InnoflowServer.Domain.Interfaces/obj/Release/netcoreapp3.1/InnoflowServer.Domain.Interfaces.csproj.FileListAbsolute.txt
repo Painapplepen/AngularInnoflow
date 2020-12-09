@@ -1,0 +1,12 @@
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.deps.json
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csprojAssemblyReference.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.AssemblyInfoInputs.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.AssemblyInfo.cs
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.csproj.CopyComplete
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Domain.Interfaces\obj\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb

@@ -1,0 +1,16 @@
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\bin\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.deps.json
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\bin\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\bin\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Core.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\bin\Release\netcoreapp3.1\InnoflowServer.Services.Interfaces.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Interfaces.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\bin\Release\netcoreapp3.1\InnoflowServer.Services.Interfaces.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\bin\Release\netcoreapp3.1\InnoflowServer.Domain.Core.pdb
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\obj\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csprojAssemblyReference.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\obj\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.AssemblyInfoInputs.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\obj\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.AssemblyInfo.cs
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\obj\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csproj.CoreCompileInputs.cache
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\obj\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.csproj.CopyComplete
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\obj\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.dll
+C:\Users\molchic\Desktop\Innoflow\InnoflowServer.Infrastructure.Business\obj\Release\netcoreapp3.1\InnoflowServer.Infrastructure.Business.pdb

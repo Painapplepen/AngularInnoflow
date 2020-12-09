@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using MimeKit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using InnoflowServer.Domain.Core.Models;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
@@ -61,16 +62,16 @@ namespace InnoflowServer.Infrastructure.Business.Users
         public async Task<string> Login(UserDTO model)
         {
             var user = await db.Users.FindByEmailAsync(model.Email);
-            
+
             if (user != null)
             {
                 var checkPassword = await db.SignIn.CheckPasswordSignInAsync(user, model.Password, false);
-                
+
                 if (!checkPassword.Succeeded)
                 {
                     return "";
                 }
-                
+
                 if (!await db.Users.IsEmailConfirmedAsync(user))
                 {
                     return "";
@@ -78,7 +79,7 @@ namespace InnoflowServer.Infrastructure.Business.Users
 
                 await db.SignIn.SignInAsync(user, true);
                 var role = await db.Users.GetRolesAsync(user);
-                
+
                 var now = DateTime.UtcNow;
                 var claims = new List<Claim>
                 {
@@ -98,7 +99,7 @@ namespace InnoflowServer.Infrastructure.Business.Users
 
                 return encodedJwt;
             }
-            
+
             return "";
         }
 
@@ -155,6 +156,31 @@ namespace InnoflowServer.Infrastructure.Business.Users
             }
 
             return true;
+        }
+
+        public async Task UpdateProfile(UserDTO model)
+        {
+            var user = await db.Users.FindByEmailAsync(model.Email);
+
+            if (user == null)
+            {
+                return;
+            }
+
+
+        }
+
+        public async Task<ProfileUserData> GetProfile(string userEmail)
+        {
+            var user = await db.Users.FindByEmailAsync(userEmail);
+            var result = new ProfileUserData();
+            result.Email = user.Email;
+            result.FirstName = user.FirstName;
+            result.LastName = user.LastName;
+            var roles = await db.Users.GetRolesAsync(user);
+            result.Role = roles[0];
+            result.PhoneNumber = user.PhoneNumber;
+            return result;
         }
 
         public async Task Logout()
