@@ -2,14 +2,11 @@
 
 namespace InnoflowServer.Domain.Core.Entities
 {
-    public class JobCategorie
+    public class JobCategory
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<UserJobCategorie> UserJobCategories { get; set; }
-        public JobCategorie()
-        {
-            UserJobCategories = new List<UserJobCategorie>();
-        }
+        public List<UserJobCategory> UserJobCategories { get; set; }
+        
     }
 }

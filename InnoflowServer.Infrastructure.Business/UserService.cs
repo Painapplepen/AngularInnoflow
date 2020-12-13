@@ -161,25 +161,30 @@ namespace InnoflowServer.Infrastructure.Business.Users
         public async Task UpdateProfile(UserDTO model)
         {
             var user = await db.Users.FindByEmailAsync(model.Email);
-
-            if (user == null)
+            
+            user = new User()
             {
-                return;
-            }
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                Email = model.Email
+            };
 
-
+            await db.Users.UpdateAsync(user);
         }
 
         public async Task<ProfileUserData> GetProfile(string userEmail)
         {
             var user = await db.Users.FindByEmailAsync(userEmail);
-            var result = new ProfileUserData();
-            result.Email = user.Email;
-            result.FirstName = user.FirstName;
-            result.LastName = user.LastName;
-            var roles = await db.Users.GetRolesAsync(user);
-            result.Role = roles[0];
-            result.PhoneNumber = user.PhoneNumber;
+
+            var result = new ProfileUserData()
+            {
+                Email = user.Email,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                PhoneNumber = user.PhoneNumber,
+                Role = await db.Roles.FindByIdAsync(user.Id)
+            };
+
             return result;
         }
 

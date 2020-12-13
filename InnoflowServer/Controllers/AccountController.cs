@@ -4,7 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using InnoflowServer.Domain.Core.DTO;
+using InnoflowServer.Domain.Core.Entities;
 using InnoflowServer.Domain.Core.Models;
+using InnoflowServer.Services.Interfaces.Cases;
 using InnoflowServer.Services.Interfaces.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -72,11 +74,12 @@ namespace InnoflowServer.Controllers
             return BadRequest();
         }
 
-        [Route("/ChangeProfile")]
+        [Route("/UpdateProfile")]
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> ChangeProfile([FromBody] ChangeProfileUserModel model)
+        public async Task<IActionResult> UpdateProfile([FromBody] ChangeProfileUserModel model)
         {
+            await _service.UpdateProfile(_mapper.Map<UserDTO>(model));
             return Ok();
         }
 
@@ -86,7 +89,7 @@ namespace InnoflowServer.Controllers
         public async Task<IActionResult> GetProfileData(string email)
         {
             var result = await _service.GetProfile(email);
-            return Ok(new { FirstName = result.FirstName, LastName = result.LastName, PhoneNumber = result.PhoneNumber, Email = result.Email, Role = result.Role });
+            return Ok(result);
         }
 
         [Route("/logout")]
@@ -95,14 +98,6 @@ namespace InnoflowServer.Controllers
         {
             await _service.Logout();
             return Ok();
-        }
-
-        [Route("/GetAssociatedCases")]
-        [HttpGet]
-        [Authorize]
-        public async Task<IActionResult> GetAssociatedCases(string email)
-        {
-            return Ok(new { message = "not implemented" });
         }
     }
 }

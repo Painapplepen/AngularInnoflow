@@ -13,6 +13,8 @@ namespace InnoflowServer.Domain.Core.Entities
 
         public string LastName { get; set; }
 
-        public List<UserJobCategorie> UserJobCategories { get; set; }
+        public List<UserJobCategory> UserJobCategories { get; set; }
+
+        public List<Case> Cases { get; set; }
     }
 }

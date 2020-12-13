@@ -19,7 +19,56 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.JobCategorie", b =>
+            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.Case", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<bool>("CaseAccepted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("CaseDevelopment")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("CompanyName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("CriteriaAndFeedback")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("CustomerNotes")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("JobCategorieId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("JobDeadline")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("JobLevelOfComplexity")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("JobLink")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("UnbiasedScoring")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("JobCategorieId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Cases");
+                });
+
+            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.JobCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -105,7 +154,7 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.UserJobCategorie", b =>
+            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.UserJobCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -115,7 +164,7 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
                     b.Property<int>("JobCaregorieId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("JobCategorieId")
+                    b.Property<int?>("JobCategoryId")
                         .HasColumnType("int");
 
                     b.Property<int>("UserId")
@@ -126,11 +175,11 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("JobCategorieId");
+                    b.HasIndex("JobCategoryId");
 
                     b.HasIndex("UserId1");
 
-                    b.ToTable("UserJobCategories");
+                    b.ToTable("UserJobCategory");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -264,17 +313,34 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.UserJobCategorie", b =>
+            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.Case", b =>
                 {
-                    b.HasOne("InnoflowServer.Domain.Core.Entities.JobCategorie", "JobCategorie")
+                    b.HasOne("InnoflowServer.Domain.Core.Entities.JobCategory", "JobCategorie")
+                        .WithMany()
+                        .HasForeignKey("JobCategorieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("InnoflowServer.Domain.Core.Entities.User", "User")
+                        .WithMany("Cases")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("JobCategorie");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.UserJobCategory", b =>
+                {
+                    b.HasOne("InnoflowServer.Domain.Core.Entities.JobCategory", "JobCategory")
                         .WithMany("UserJobCategories")
-                        .HasForeignKey("JobCategorieId");
+                        .HasForeignKey("JobCategoryId");
 
                     b.HasOne("InnoflowServer.Domain.Core.Entities.User", "User")
                         .WithMany("UserJobCategories")
                         .HasForeignKey("UserId1");
 
-                    b.Navigation("JobCategorie");
+                    b.Navigation("JobCategory");
 
                     b.Navigation("User");
                 });
@@ -330,13 +396,15 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.JobCategorie", b =>
+            modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.JobCategory", b =>
                 {
                     b.Navigation("UserJobCategories");
                 });
 
             modelBuilder.Entity("InnoflowServer.Domain.Core.Entities.User", b =>
                 {
+                    b.Navigation("Cases");
+
                     b.Navigation("UserJobCategories");
                 });
 #pragma warning restore 612, 618

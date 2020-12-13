@@ -6509,20 +6509,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\molchic\\.nuget\\packages\\": {}
+    "C:\\Users\\sanin\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Infrastructure.Data\\InnoflowServer.Infrastructure.Data.csproj",
+      "projectUniqueName": "D:\\AngularInnoflowServer\\InnoflowServer\\InnoflowServer.Infrastructure.Data\\InnoflowServer.Infrastructure.Data.csproj",
       "projectName": "InnoflowServer.Infrastructure.Data",
-      "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Infrastructure.Data\\InnoflowServer.Infrastructure.Data.csproj",
-      "packagesPath": "C:\\Users\\molchic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Infrastructure.Data\\obj\\",
+      "projectPath": "D:\\AngularInnoflowServer\\InnoflowServer\\InnoflowServer.Infrastructure.Data\\InnoflowServer.Infrastructure.Data.csproj",
+      "packagesPath": "C:\\Users\\sanin\\.nuget\\packages\\",
+      "outputPath": "D:\\AngularInnoflowServer\\InnoflowServer\\InnoflowServer.Infrastructure.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\molchic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\sanin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6534,11 +6541,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj": {
-              "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj"
+            "D:\\AngularInnoflowServer\\InnoflowServer\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj": {
+              "projectPath": "D:\\AngularInnoflowServer\\InnoflowServer\\InnoflowServer.Domain.Core\\InnoflowServer.Domain.Core.csproj"
             },
-            "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\molchic\\Desktop\\Innoflow\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj"
+            "D:\\AngularInnoflowServer\\InnoflowServer\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj": {
+              "projectPath": "D:\\AngularInnoflowServer\\InnoflowServer\\InnoflowServer.Domain.Interfaces\\InnoflowServer.Domain.Interfaces.csproj"
             }
           }
         }
@@ -6580,7 +6587,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

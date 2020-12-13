@@ -13,6 +13,8 @@ namespace InnoflowServer.Infrastructure.Data.Repositories
     {
         private ApplicationDbContext db;
 
+        private CaseRepository caseRepository;
+        private JobCategoryRepository jobCategoryRepository;
         private UserManager<User> _userManager;
         private RoleManager<IdentityRole> _roleManager;
         private SignInManager<User> _signInManager;
@@ -24,6 +26,7 @@ namespace InnoflowServer.Infrastructure.Data.Repositories
             _roleManager = roleManager;
             _signInManager = signInManager;
         }
+
         public UserManager<User> Users
         {
             get
@@ -45,6 +48,26 @@ namespace InnoflowServer.Infrastructure.Data.Repositories
             get
             {
                 return _signInManager;
+            }
+        }
+
+        public ICaseRepository Cases
+        {
+            get
+            {
+                if(caseRepository == null)
+                    caseRepository = new CaseRepository(db);
+                return caseRepository;
+            }
+        }
+
+        public IJobCategoryRepository JobCategories
+        {
+            get
+            {
+                if (jobCategoryRepository == null)
+                    jobCategoryRepository = new JobCategoryRepository(db);
+                return jobCategoryRepository;
             }
         }
     }

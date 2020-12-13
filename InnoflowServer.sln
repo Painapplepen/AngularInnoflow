@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoflowServer", "InnoflowServer\InnoflowServer.csproj", "{E8B5C0C1-4413-420E-80B3-A935252BD888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnoflowServer", "InnoflowServer\InnoflowServer.csproj", "{E8B5C0C1-4413-420E-80B3-A935252BD888}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DF425E44-5231-4FC1-91F6-98F0123D38E5}"
 EndProject
@@ -11,15 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8B6FBFF0-5681-457A-9BE2-20EEBB23799D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoflowServer.Domain.Core", "InnoflowServer.Domain.Core\InnoflowServer.Domain.Core.csproj", "{94684735-2FAF-4CBA-B7E6-549701484323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnoflowServer.Domain.Core", "InnoflowServer.Domain.Core\InnoflowServer.Domain.Core.csproj", "{94684735-2FAF-4CBA-B7E6-549701484323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoflowServer.Domain.Interfaces", "InnoflowServer.Domain.Interfaces\InnoflowServer.Domain.Interfaces.csproj", "{F712992E-5761-468F-BBE3-8E8EA6838095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnoflowServer.Domain.Interfaces", "InnoflowServer.Domain.Interfaces\InnoflowServer.Domain.Interfaces.csproj", "{F712992E-5761-468F-BBE3-8E8EA6838095}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoflowServer.Infrastructure.Data", "InnoflowServer.Infrastructure.Data\InnoflowServer.Infrastructure.Data.csproj", "{6F3AA624-2C2E-41C1-A95C-B649FA22EBC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnoflowServer.Infrastructure.Data", "InnoflowServer.Infrastructure.Data\InnoflowServer.Infrastructure.Data.csproj", "{6F3AA624-2C2E-41C1-A95C-B649FA22EBC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoflowServer.Infrastructure.Business", "InnoflowServer.Infrastructure.Business\InnoflowServer.Infrastructure.Business.csproj", "{DFD8C44D-B55F-4EBD-A0CC-0D48EE4147F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnoflowServer.Infrastructure.Business", "InnoflowServer.Infrastructure.Business\InnoflowServer.Infrastructure.Business.csproj", "{DFD8C44D-B55F-4EBD-A0CC-0D48EE4147F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoflowServer.Services.Interfaces", "InnoflowServer.Services.Interfaces\InnoflowServer.Services.Interfaces.csproj", "{F24033DD-3047-4F0C-8110-0F240E78BE1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnoflowServer.Services.Interfaces", "InnoflowServer.Services.Interfaces\InnoflowServer.Services.Interfaces.csproj", "{F24033DD-3047-4F0C-8110-0F240E78BE1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9396E21E-40B0-4BA9-A598-6168435DD723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoflowServer.UnitTest", "InnoflowServer.UnitTest\InnoflowServer.UnitTest.csproj", "{6CD69001-7D32-417E-826F-4B0F4EC37F00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{F24033DD-3047-4F0C-8110-0F240E78BE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F24033DD-3047-4F0C-8110-0F240E78BE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F24033DD-3047-4F0C-8110-0F240E78BE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD69001-7D32-417E-826F-4B0F4EC37F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD69001-7D32-417E-826F-4B0F4EC37F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD69001-7D32-417E-826F-4B0F4EC37F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD69001-7D32-417E-826F-4B0F4EC37F00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +69,8 @@ Global
 		{6F3AA624-2C2E-41C1-A95C-B649FA22EBC4} = {C9EBA423-6BEE-492A-A5F2-AB3FC1242B49}
 		{DFD8C44D-B55F-4EBD-A0CC-0D48EE4147F9} = {C9EBA423-6BEE-492A-A5F2-AB3FC1242B49}
 		{F24033DD-3047-4F0C-8110-0F240E78BE1D} = {8B6FBFF0-5681-457A-9BE2-20EEBB23799D}
+		{9396E21E-40B0-4BA9-A598-6168435DD723} = {C9EBA423-6BEE-492A-A5F2-AB3FC1242B49}
+		{6CD69001-7D32-417E-826F-4B0F4EC37F00} = {9396E21E-40B0-4BA9-A598-6168435DD723}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2321CB6-FA53-4234-9E5E-EA7197589962}

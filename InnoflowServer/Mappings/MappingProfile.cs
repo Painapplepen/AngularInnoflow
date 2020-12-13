@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using InnoflowServer.Domain.Core.DTO;
+using InnoflowServer.Domain.Core.Entities;
 using InnoflowServer.Domain.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,9 @@ namespace InnoflowServer.Mappings
 
             CreateMap<LoginUserModel, UserDTO>();
             CreateMap<UserDTO, LoginUserModel>();
+
+            CreateMap<CreateCaseModel, Case>();
+            CreateMap<Case, CreateCaseModel>();
         }
     }
 }

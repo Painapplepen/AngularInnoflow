@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace InnoflowServer.Infrastructure.Data.Migrations
 {
-    public partial class FirstMigration : Migration
+    public partial class NewMigrations : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -168,7 +168,42 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "UserJobCategories",
+                name: "Cases",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CompanyName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    JobCategorieId = table.Column<int>(type: "int", nullable: false),
+                    JobLevelOfComplexity = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    JobLink = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CustomerNotes = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CaseDevelopment = table.Column<bool>(type: "bit", nullable: false),
+                    CriteriaAndFeedback = table.Column<bool>(type: "bit", nullable: false),
+                    UnbiasedScoring = table.Column<bool>(type: "bit", nullable: false),
+                    CaseAccepted = table.Column<bool>(type: "bit", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    JobDeadline = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Cases", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Cases_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Cases_JobCategories_JobCategorieId",
+                        column: x => x.JobCategorieId,
+                        principalTable: "JobCategories",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "UserJobCategory",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -176,20 +211,20 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
                     UserId = table.Column<int>(type: "int", nullable: false),
                     UserId1 = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     JobCaregorieId = table.Column<int>(type: "int", nullable: false),
-                    JobCategorieId = table.Column<int>(type: "int", nullable: true)
+                    JobCategoryId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_UserJobCategories", x => x.Id);
+                    table.PrimaryKey("PK_UserJobCategory", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_UserJobCategories_AspNetUsers_UserId1",
+                        name: "FK_UserJobCategory_AspNetUsers_UserId1",
                         column: x => x.UserId1,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_UserJobCategories_JobCategories_JobCategorieId",
-                        column: x => x.JobCategorieId,
+                        name: "FK_UserJobCategory_JobCategories_JobCategoryId",
+                        column: x => x.JobCategoryId,
                         principalTable: "JobCategories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -235,13 +270,23 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_UserJobCategories_JobCategorieId",
-                table: "UserJobCategories",
+                name: "IX_Cases_JobCategorieId",
+                table: "Cases",
                 column: "JobCategorieId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_UserJobCategories_UserId1",
-                table: "UserJobCategories",
+                name: "IX_Cases_UserId",
+                table: "Cases",
+                column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UserJobCategory_JobCategoryId",
+                table: "UserJobCategory",
+                column: "JobCategoryId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UserJobCategory_UserId1",
+                table: "UserJobCategory",
                 column: "UserId1");
         }
 
@@ -263,7 +308,10 @@ namespace InnoflowServer.Infrastructure.Data.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "UserJobCategories");
+                name: "Cases");
+
+            migrationBuilder.DropTable(
+                name: "UserJobCategory");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

@@ -13,5 +13,7 @@ namespace InnoflowServer.Domain.Interfaces
         UserManager<User> Users { get; }
         RoleManager<IdentityRole> Roles { get; }
         SignInManager<User> SignIn { get; }
+        ICaseRepository Cases { get; }
+        IJobCategoryRepository JobCategories { get; }
     }
 }
