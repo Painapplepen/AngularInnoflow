@@ -36,7 +36,7 @@ namespace InnoflowServer.Infrastructure.Business.Users
                 return null;
             }
 
-            user = new User { Email = model.Email, UserName = "User", FirstName = model.FirstName, LastName = model.LastName };
+            user = new User { Email = model.Email, UserName = model.Email, FirstName = model.FirstName, LastName = model.LastName };
             var checkAdd = await db.Users.CreateAsync(user, model.Password);
 
             if (!checkAdd.Succeeded)
@@ -108,9 +108,9 @@ namespace InnoflowServer.Infrastructure.Business.Users
             try
             {
                 var emailMessage = new MimeMessage();
-                emailMessage.From.Add(new MailboxAddress("Innoflow-admin", "sanin17619@gmail.com"));
+                emailMessage.From.Add(new MailboxAddress("Innoflow-admin", "innoflowa@gmail.com"));
                 emailMessage.To.Add(new MailboxAddress("", model.Email));
-                emailMessage.Subject = "Подтвердите свою почту";
+                emailMessage.Subject = "Confirm your mail";
                 emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Html)
                 {
                     Text = message
@@ -120,7 +120,7 @@ namespace InnoflowServer.Infrastructure.Business.Users
                 {
                     client.Timeout = (int)TimeSpan.FromSeconds(5).TotalMilliseconds;
                     await client.ConnectAsync("smtp.gmail.com", 587, false);
-                    await client.AuthenticateAsync("sanin17619@gmail.com", "kctoszrouldiouuo");
+                    await client.AuthenticateAsync("innoflowa@gmail.com", "innoflowadmin");
                     await client.SendAsync(emailMessage);
 
                     await client.DisconnectAsync(true);
@@ -128,7 +128,7 @@ namespace InnoflowServer.Infrastructure.Business.Users
             }
             catch (Exception e)
             {
-                Console.WriteLine("Ошибка при отправке почты" + e.Message);
+                Console.WriteLine("Failed to send message" + e.Message);
                 return false;
             }
             return true;

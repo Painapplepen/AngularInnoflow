@@ -27,7 +27,7 @@ namespace InnoflowServer.Controllers
             _mapper = mapper;
         }
 
-        [Route("/register")]
+        [Route("/Register")]
         [HttpPost]
         public async Task<IActionResult> Register([FromBody] RegisterUserModel model)
         {
@@ -41,7 +41,7 @@ namespace InnoflowServer.Controllers
                 "Account",
                 new { userEmail = model.Email, code = code },
                 protocol: HttpContext.Request.Scheme);
-            string message = $"Подтвердите регистрацию, перейдя по ссылке: <a href = '{callbackUrl}'>Link</a>";
+            string message = $"<a href = '{callbackUrl}'>Confirm registration by following the link</a>";
             if (!await _service.SendEmail(_mapper.Map<UserDTO>(model), message))
             {
                 return BadRequest();
@@ -62,7 +62,7 @@ namespace InnoflowServer.Controllers
 
             return Ok();
         }
-        [Route("/login")]
+        [Route("/Login")]
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginUserModel model)
         {
@@ -92,7 +92,7 @@ namespace InnoflowServer.Controllers
             return Ok(result);
         }
 
-        [Route("/logout")]
+        [Route("/Logout")]
         [HttpPost]
         public async Task<IActionResult> Logout()
         {

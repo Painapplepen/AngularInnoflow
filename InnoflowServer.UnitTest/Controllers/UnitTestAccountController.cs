@@ -57,7 +57,7 @@ namespace InnoflowServer.UnitTest.Controllers
         }
 
         [Test]
-        public async Task Login_Valid()
+        public async Task LoginFailed_Valid()
         {
             var model = new UserDTO { FirstName = "Anton", LastName = "Molch", Email = "bob@gmail.com", Password = "12345678", UserJobCategories = new List<string>() { "Programmer", "QA" } };
             _mockService.Setup(s => s.Register(model)).ReturnsAsync(ForTestComment().FirstOrDefault(u => u.Email == model.Email).ToString());
@@ -65,7 +65,7 @@ namespace InnoflowServer.UnitTest.Controllers
             var LoginModel = new LoginUserModel {Email = "bob@gmail.com", Password = "12345678"};
             var result = await _controller.Login(LoginModel);
 
-            Assert.IsInstanceOf<OkResult>(result);
+            Assert.IsInstanceOf<BadRequestResult>(result);
         }
     }
 }

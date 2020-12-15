@@ -6,11 +6,11 @@ using InnoflowServer.Infrastructure.Business.Users;
 using InnoflowServer.Infrastructure.Data;
 using InnoflowServer.Infrastructure.Data.Repositories;
 using InnoflowServer.Mappings;
+using InnoflowServer.Services.Interfaces.Cases;
 using InnoflowServer.Services.Interfaces.Users;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -42,21 +42,16 @@ namespace InnoflowServer
                         options.RequireHttpsMetadata = false;
                         options.TokenValidationParameters = new TokenValidationParameters
                         {
-                            // óêçûâàåò, áóäåò ëè âàëèäèðîâàòüñÿ èçäàòåëü ïðè âàëèäàöèè òîêåíà
                             ValidateIssuer = true,
-                            // ñòðîêà, ïðåäñòàâëÿþùàÿ èçäàòåëÿ
                             ValidIssuer = AuthOptions.ISSUER,
 
-                            // áóäåò ëè âàëèäèðîâàòüñÿ ïîòðåáèòåëü òîêåíà
                             ValidateAudience = true,
-                            // óñòàíîâêà ïîòðåáèòåëÿ òîêåíà
                             ValidAudience = AuthOptions.AUDIENCE,
-                            // áóäåò ëè âàëèäèðîâàòüñÿ âðåìÿ ñóùåñòâîâàíèÿ
+
                             ValidateLifetime = true,
 
-                            // óñòàíîâêà êëþ÷à áåçîïàñíîñòè
                             IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(),
-                            // âàëèäàöèÿ êëþ÷à áåçîïàñíîñòè
+
                             ValidateIssuerSigningKey = true,
                         };
                     });
@@ -70,8 +65,8 @@ namespace InnoflowServer
             }).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders(); ;
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();
-
             services.AddTransient<IUserService, UserService>();
+            services.AddTransient<ICaseService, CaseService>();
 
             services.AddControllers();
 
@@ -112,9 +107,10 @@ namespace InnoflowServer
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Users}/{action=Index}/{id?}");
+                //endpoints.MapControllerRoute(
+                //    name: "default",
+                //    pattern: "{controller=Users}/{action=Index}/{id?}");
+                endpoints.MapDefaultControllerRoute();
             });
         }
     }
